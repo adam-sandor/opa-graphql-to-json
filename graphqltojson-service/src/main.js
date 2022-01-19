@@ -9,8 +9,9 @@ const port = 3000
 app.use(bodyParser.text());
 
 app.post('/', (req, res) => {
-    const query = req.body
+    const query = req.body.replaceAll('"', '').replaceAll('\\n', '')
     console.log('Converting query "' + query + '" to JSON');
+    console.log(req.headers);
 
     const result = graphQlQueryToJson(query)
 

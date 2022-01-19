@@ -1,0 +1,1 @@
+opa eval --format=pretty -b policy --input input.json data.rules.main
