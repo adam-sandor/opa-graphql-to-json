@@ -1,0 +1,15 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "graphql-query-to-json": "2.0.1"
+  }
+}
