@@ -1,2 +1,4 @@
 # Project exclude paths
 /graphqltojson-service/node_modules/
+.idea
+opa
